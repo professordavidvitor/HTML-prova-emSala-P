@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+</head>
+<body>
+    <form action="enviar.php" method="post">
+    <h1><mark style="background-color: rgb(255, 0, 0);">Prova HTML 5 Turma P </mark> </h1>
+    <br>
+
+    <h2><mark style="background-color: rgb(0, 4, 255);">Formulário </mark> </h2>
+    <br>
+    
+    <label for="nome"><strong>Nome:</strong></label>
+    <input type="text" id="nome" name="nome" required>
+    <br>
+    <small><i> Insira seu nome completo.</i></small>
+    <br> <br>
+
+    <label for="nome"><strong>Nome da mãe:</strong></label>
+    <input type="text" id="nome" name="nome" required>
+    <br>
+    <small><i>ex: Nome completo da mãe do aluno</i></small>
+    <br> <br>
+
+    <label for="Telefone"><strong>Nome da mãe:</strong></label>
+    <input type="telefone" id="telefone" name="telefone" required>
+    <br>
+    <small><i>ex: (61)9819036XX</i></small>
+    <br> <br>
+
+    <input type="submit" value="Enviar">
+    
+    </form>
+
+    <h2><mark style="background-color: rgb(0, 4, 255);">ìndice HTML5</mark> </h2>
+
+    <ol type="1" start="1"> 
+        <li><strong>Capítulo <u>os melhores</u> </strong></li> </ol>
+
+        <ol type="I" start="1"> 
+               <li>seção</li> </ol>
+
+               <ol type="A" start="1"> 
+                <li>Subseção Carros <small>I</small></li> </ol>
+
+                <ol type="1" start="1"> 
+                    <li><s>Rolls Royce</s> (indisponivel)</li> 
+                    <li> Bugatti</li>
+                    <li>Ferrari</li>
+</ol>
+
+<ol type="I" start="2"> 
+    <li>seção</li> </ol>
+
+    <ol type="A" start="1"> 
+     <li>Subseção "motos" <small>II</small></li> </ol>
+
+     <ol type="1" start="1"> 
+         <li>Ducati Diavel 1260 S</li> 
+         <li> BMW K 1600 Bagger</li>
+         <li>Harley-Davidson</li>
+</ol>
+
+<ol type="I" start="3"> 
+    <li>seção </li> </ol>
+
+    <ol type="A" start="1"> 
+     <li>Subseção "motos" <small>III</small></li> </ol>
+
+     <ol type="1" start="1"> 
+         <li>Dassault<small>2</small></li> 
+         <li> Pilatus PC-24</li>
+         <li>Challenger 350</li>
+</ol>
+ <p>"O sucesso é alcançado com perseverança e dedicação!"</p>
+
+
+ <br>
+
+<p><small>obs: A lista está ordenada em níveis numéricos e alfabéticos.</small></p>
+<br>
+
+<p><bdo dir="rtl">Nunca desista!!</bdo></p>
+</body>
+</html>
