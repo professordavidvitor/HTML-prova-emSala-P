@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><mark>Prova HTML 5 turma P2</mark></h1>
+    <h2> <mark>Formulario</mark></h2>
+    <form action="melhores.php">
+        <p><b>Nome : </b><br>
+            
+             <input type="text" name="nome" id="nome"></p>
+             <p><em>Ex:João paulo</em></p> 
+        <p><b>Nome da Mãe:</b><br>
+             <input type="text" name="sobrenome" id="sobrenome"></p>
+             <p><em>Ex:Maria</em></p>
+        <p><b>telefone : </b><br>
+            <input type="text" name="telefone" id="telefone">
+            <p><em>Ex:(61)9 9379-02XX</em>
+            </p>
+        </p>
+        <p><input type="submit" value="Enviar"></p>
+        </form>
+        <H2> <mark>Índcice HTML5</mark></H2>
+<ol>
+<li><b>Capítulo <ins> Os melhores</ins></b></li>
+    <ol type="I" start="1">
+    <li>Seção<sup>I</sup></li>
+        <ol type="A" >
+        <li>Subseção Carros</li>
+            <ol type="1" >
+            <li><del>Rolls Royce</del> (indisponível)</li>
+            <li>Bugatti</li>
+            <li>Ferrari</li>
+            </ol>
+        </ol>
+    </ol>    
+    <ol type="I" start="2">
+    <li>Seção <sup>II</sup></li>
+        <ol type="A" start="2">
+        <li>Subseção"Motos"</li>
+            <ol type="1">
+                <li>Ducati Diavel 1260 S</li>
+                <li>BMW K 1600 Bagger</li>
+                <li>Harley-Davidson</li>
+            </ol>
+        </ol>
+    </ol>
+    <ol type="I" start="3">
+    <li>Seção <sup>III</sup></li>
+        <ol type="A" start="3" >
+        <li>Subseção Jatinhos</li>
+            <ol type="1">
+            <li>Dassault <sub>2</sub></li>
+            <li>Pilatus PC-24</li>
+            <li>Challenger 350</li>
+            </ol>
+        </ol>   
+    </ol>
+    <h5>"O sucesso é alcançado com perseverança e dedicação!"</h5>
+
+<h5><small>obs: A lista está ordenada em níveis numéricos e alfabéticos.</small></h5>
+  
+</body>
+</html>
