@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><h1>PROVA HTML</h1></title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+    legend{
+        border: 1px solid rgb(70, 122, 189);
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(113, 92, 134);
+        border-radius: 8px;
+    }
+</style>
+   <div class="box">
+    <form action="">
+    <fieldset>
+        <h1>Formulario</h1>
+        <legend><H1>Prova html</H1></legend>
+        <br>
+        <div class="inputBox">
+            <label for="nome">Nome completo</label>
+            <br>
+            <input type="text" name="nome" id="nome" class="inputUser" required>
+            <p>ex:nome completo do aluno</p>
+   </div>
+    <div class="inputBox">
+        <label for="nome">Nome da mãe:</label>
+        <br>
+        <input type="text" name="nome" id="nome" class="inputUser" required>
+        <p>ex:nome completo da mãe do aluno</p>
+    </div>
+    <div class="inputBox">
+        <label for="telefone" class="labelInput"> Telefone</label>
+        <br>
+        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+        <P>EX:(61)9xxxxxxxxx</P>
+    </div>
+    <br>
+    <input type="submit" name="submit" id="submit">
+    <p><h1>Indice HTML</html></h1></p>
+    <br><br>
+    <h4>Capitulo os melhores</h4>
+</p><b> A subseção carros </b> </p>
+</fieldset>
+</form>
+</div>
+</body>
+</html>
