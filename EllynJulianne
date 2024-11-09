@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+    <style>
+        h2{
+            color: white;
+            background-color: rgb(13, 11, 114);
+            width: 160px;
+        }
+        h1{
+            color: white;
+            background-color: rgb(114, 11, 11);
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <mark><h1>Prova HTML5 Turma P1</h1></mark>
+    <h2>Formulário</h2>
+    <form>
+         <p><b>Nome: </b></p><input type="text"><br>
+           <i><small>ex: Ellyn Julianne Silva Monteiro</small></i>
+        <p><b>Nome da Mãe: </b></p><input type="text"><br>
+           <i><small>ex: Ilani Souza Silva Monteiro</small></i>
+        <p><b>Telefone: </b></p><input type="text"><br>
+           <i><small>ex: (61) 99103-0194)</small></i> <br><br>
+        <input type="submit">
+    </form>
+
+    <h2>Índice HTML5</h2>
+    <ol type="1">
+        <b><li>Capítulo <u>Os melhores</u></li></b>
+        <ol type="I" >
+                <li>Seção</li>
+              <ol type="A" >
+                <li>Subseção</li>
+             </ol>
+              <ol type="1">
+                <li><s>Rolls Royce (indisponível)</s></li>
+                <li>Bugatti</li>
+                <li>Ferrari</li>
+              </ol>
+                
+            <li>Seção</li>
+            <ol type="A" >
+                <li>Subseção "Motos"</li>
+            </ol>
+               <ol type="1">
+                 <li>Ducati Diavel 1260 S</li>
+                 <li>BMW K 1600 Bagger</li>
+                  <li>Harley-Davidson</li>
+              </ol>
+
+                 <li>Seção</li>
+            <ol type="A" >
+                <li>Subseção Jatinhos</li>
+            </ol>
+               <ol type="1">
+                <li>Dassault</li>
+                <li>Pilatus PC-24</li>
+                <li><u>Challenger 350</u></li>
+              </ol>
+            <p>"O sucesso é alcançado com perseverança e dedicação!"</p>
+            </ol>
+        </ol> 
+    </ol>
+    <small>obs: A lista está ordenada em niveis numéricos e alfabéticos</small>
+
+    
+</body>
+</html>
